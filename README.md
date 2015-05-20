@@ -4,9 +4,11 @@ a very simple blog generator
 
 this program is going to work as such:
 
-generator x.txt
+generator x.txt or x.md
 
-this is going to give a x.html
+is going to use markdown2
+to download markdown2; just go and install it
+pip install markdown2
 
-txt is not plaintext right now, it has its own tags, which are just <p>
-going to try markdown2 again for turkish characters.
+it is going to produce html file from the md file
+and give us a x.html file.
